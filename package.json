@@ -3,12 +3,25 @@
   "displayName": "Thorn",
   "description": "Port of thorn.nvim, a dark and light green theme",
   "version": "0.0.1",
+  "publisher": "jpwol",
+  "license": "MIT",
+  "keywords": [
+    "theme",
+    "dark",
+    "clean"
+  ],
   "engines": {
     "vscode": "^1.105.0"
   },
   "categories": [
-    "Themes"
+    "Themes",
+    "Other"
   ],
+  "homepage": "https://github.com/jpwol/thorn-vscode-theme",
+    "repository": {
+        "url": "https://github.com/jpwol/thorn-vscode-theme",
+        "type": "git"
+    }, 
   "contributes": {
     "themes": [
       {
@@ -17,5 +30,9 @@
         "path": "./themes/Thorn-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
   }
 }
