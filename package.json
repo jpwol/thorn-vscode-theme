@@ -1,0 +1,21 @@
+{
+  "name": "thorn",
+  "displayName": "Thorn",
+  "description": "Port of thorn.nvim, a dark and light green theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Thorn",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Thorn-color-theme.json"
+      }
+    ]
+  }
+}
