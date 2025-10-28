@@ -1,5 +1,11 @@
 # Release Notes
 
+## 0.2.1
+
+`2025-10-28`
+
+- Fixed `.vscodeignore` so static will no longer be in the extension
+
 ## 0.2.0
 
 `2025-10-28`
