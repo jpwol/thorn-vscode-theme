@@ -1,9 +1,7 @@
-# Change Log
+# Release Notes
 
-All notable changes to the "thorn" extension will be documented in this file.
+## 0.1.0
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
+`2025-10-27`
 
 - Initial release
