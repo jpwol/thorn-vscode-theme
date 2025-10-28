@@ -205,7 +205,9 @@
       "scope": [
         "variable",
         "meta.preproccessor",
-        "string constant.other.placeholder"
+        "string constant.other.placeholder",
+        "support.constant.property-value",
+        "entity.name.variable.local",
       ],
       "settings": {
         "foreground": "#DBD0C6"
@@ -213,7 +215,10 @@
     },
     {
       "name": "Variable Parameter",
-      "scope": ["variable.parameter"],
+      "scope": [
+        "variable.parameter",
+        "entity.name.variable.parameter",
+      ],
       "settings": {
         "foreground": "#DBD0C6",
         "fontStyle": "italic"
@@ -241,7 +246,8 @@
         "keyword.other",
         "storage.type",
         "punctuation.definition.directive",
-        "storage.modifier"
+        "storage.modifier",
+        "entity.name.tag.html"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -255,8 +261,10 @@
         "entity.name.operator",
         "storage.modifier.reference",
         "storage.modifier.pointer",
+        "storage.type.function.arrow",
         "entity.name.function.operator",
-        "punctuation.separator.pointer-access"
+        "punctuation.separator.pointer-access",
+        "punctuation.accessor",
       ],
       "settings": {
         "foreground": "#D2696C",
@@ -302,7 +310,10 @@
         "punctuation.separator",
         "punctuation.terminator.statement",
         "keyword.other.template",
-        "keyword.other.substitution"
+        "keyword.other.substitution",
+        "support.variable.property",
+        "entity.name.variable.field",
+        "variable.other.object.property",
       ],
       "settings": {
         "foreground": "#9FCFC3",
@@ -325,7 +336,8 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#F9ADA0",
+        "fontStyle": "italic"
       }
     },
     {
@@ -395,18 +407,12 @@
         "meta.use.php",
         "support.other.namespace.php",
         "markup.changed.git_gutter",
-        "support.type.sys-types"
+        "support.type.sys-types",
+        "variable.other.readwrite.alias.js",
       ],
       "settings": {
         "foreground": "#79C2B6",
         "fontStyle": ""
-      }
-    },
-    {
-      "name": "Entity Types",
-      "scope": ["support.type"],
-      "settings": {
-        "foreground": "#B2CCD6"
       }
     },
     {
@@ -417,10 +423,11 @@
         "source.scss support.type.property-name",
         "source.less support.type.property-name",
         "source.stylus support.type.property-name",
-        "source.postcss support.type.property-name"
+        "source.postcss support.type.property-name",
+        "meta.tag-stuff",
       ],
       "settings": {
-        "foreground": "#B2CCD6"
+        "foreground": "#9FCFC3"
       }
     },
     {
@@ -436,10 +443,13 @@
     },
     {
       "name": "Language methods",
-      "scope": ["variable.language"],
+      "scope": [
+        "variable.language",
+        // "variable.other.object",
+      ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#FF5370"
+        "foreground": "#FFD7AA"
       }
     },
     {
@@ -484,7 +494,7 @@
       "name": "CSS Classes",
       "scope": ["entity.other.attribute-name.class"],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#79C2B6"
       }
     },
     {
@@ -492,6 +502,26 @@
       "scope": ["source.sass keyword.control"],
       "settings": {
         "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "CSS Units",
+      "scope": [
+        "keyword.other.unit",
+      ],
+      "settings": {
+        "foreground": "#9FCFC3",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "CSS Attributes",
+      "scope":[
+        "entity.other.attribute-name.pseudo-class"
+      ],
+      "settings": {
+        "foreground": "#9EBB9C",
+        "fontStyle": ""
       }
     },
     {
