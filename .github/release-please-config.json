@@ -1,5 +1,5 @@
 {
-  "": {
+  ".": {
     "release-type": "simple",
     "bump-major-pre-minor": true,
     "changelog-path": "CHANGELOG.md",
