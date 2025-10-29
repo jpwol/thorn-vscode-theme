@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.2](https://github.com/jpwol/thorn-vscode-theme/compare/v0.3.1...v0.3.2) (2025-10-29)
+
+
+### Bug Fixes
+
+* repository signing ([8d1c47e](https://github.com/jpwol/thorn-vscode-theme/commit/8d1c47ea2c90d2824cfd0e9dac7eb295a99f8fcf))
+
 ## [0.3.1](https://github.com/jpwol/thorn-vscode-theme/compare/v0.3.0...v0.3.1) (2025-10-29)
 
 
