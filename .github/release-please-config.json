@@ -1,0 +1,21 @@
+{
+  ".": {
+    "release-type": "simple",
+    "bump-major-pre-minor": true,
+    "changelog-path": "CHANGELOG.md",
+    "extra-files": [
+      {
+        "type": "json",
+        "path": "package.json",
+        "jsonpath": "$.version"
+      }
+    ],
+    "changelog-types": [
+      { "type": "feat", "section": "Features", "hidden": false },
+      { "type": "fix", "section": "Fixes", "hidden": false },
+      { "type": "docs", "section": "Documentation", "hidden": false },
+      { "type": "perf", "section": "Performance Tweaks", "hidden": false },
+      { "type": "style", "section": "Changes", "hidden": false }
+    ]
+  }
+}
