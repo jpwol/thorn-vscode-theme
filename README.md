@@ -7,7 +7,7 @@ A port of the Neovim colorscheme, [thorn.nvim](https://github.com/jpwol/thorn.nv
 
 Features dark, rich greens and low contrast UI to provide a pleasant working experience.
 
-### Supports
+#### Supports
 
 - All major languages
 - Markdown
