@@ -7,6 +7,12 @@ A port of the Neovim colorscheme, [thorn.nvim](https://github.com/jpwol/thorn.nv
 
 Features dark, rich greens and low contrast UI to provide a pleasant working experience.
 
+### Supports
+
+- All major languages
+- Markdown
+- Json
+
 ### Screenshots
 
 <div align="center">
@@ -27,4 +33,3 @@ Additional goodies can be found [here](https://github.com/jpwol/thorn.nvim/tree/
 ### Issues/Bugs
 
 Any issues that might be encountered, please report them [here](https://github.com/jpwol/thorn-vscode-theme/issues) and I will take care of them as fast as possible.
-
