@@ -276,7 +276,8 @@
         "storage.type.function.arrow",
         "entity.name.function.operator",
         "punctuation.separator.pointer-access",
-        "punctuation.accessor"
+        "punctuation.accessor",
+        "punctuation.separator.key-value.html"
       ],
       "settings": {
         "foreground": "#D2696C",
@@ -325,7 +326,9 @@
         "keyword.other.substitution",
         "support.variable.property",
         "entity.name.variable.field",
-        "variable.other.object.property"
+        "variable.other.object.property",
+        "meta.attribute",
+        "invalid.deprecated"
       ],
       "settings": {
         "foreground": "#9FCFC3",
