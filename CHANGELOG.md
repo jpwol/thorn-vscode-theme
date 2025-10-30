@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.3](https://github.com/jpwol/thorn-vscode-theme/compare/v0.3.2...v0.3.3) (2025-10-30)
+
+
+### Bug Fixes
+
+* missing highlights for html attributes ([64e981e](https://github.com/jpwol/thorn-vscode-theme/commit/64e981e41821b15e10910e85fbaeb2c42ea9ade8))
+
 ## [0.3.2](https://github.com/jpwol/thorn-vscode-theme/compare/v0.3.1...v0.3.2) (2025-10-29)
 
 
