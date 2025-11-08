@@ -1,9 +1,9 @@
 {
-  "name": "thorn",
+  "name": "thorn-variant",
   "displayName": "Thorn",
   "description": "Port of thorn.nvim, a dark and light green theme",
-  "version": "0.3.3",
-  "publisher": "jpwol",
+  "version": "0",
+  "publisher": "ljennings98",
   "license": "MIT",
   "keywords": [
     "theme",
@@ -29,9 +29,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Thorn",
+        "label": "Thorn (dark warm)",
         "uiTheme": "vs-dark",
-        "path": "./themes/Thorn-color-theme.json"
+        "path": "./themes/dark-warm.json"
+      },
+      {
+        "label": "Thorn (dark cool)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-cool.json"
       }
     ]
   },
