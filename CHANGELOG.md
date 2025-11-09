@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.5](https://github.com/jpwol/thorn-vscode-theme/compare/v0.3.4...v0.3.5) (2025-11-09)
+
+
+### Bug Fixes
+
+* renamed file to utilized vscode autocompletion ([2674ef1](https://github.com/jpwol/thorn-vscode-theme/commit/2674ef15a3c3148ea1b68954a70e097c760237d4))
+* updated package.json to reflect correct file name ([dd765f5](https://github.com/jpwol/thorn-vscode-theme/commit/dd765f5fadfe1dccfb408e7d466a5914cc6b8521))
+
 ## [0.3.4](https://github.com/jpwol/thorn-vscode-theme/compare/v0.3.3...v0.3.4) (2025-11-09)
 
 
