@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.4](https://github.com/jpwol/thorn-vscode-theme/compare/v0.3.3...v0.3.4) (2025-11-09)
+
+
+### Bug Fixes
+
+* **package:** changed package.json to allow for other variants ([8cbef68](https://github.com/jpwol/thorn-vscode-theme/commit/8cbef68abccdd1b168f3071f0f24fb096712be83))
+
 ## [0.3.3](https://github.com/jpwol/thorn-vscode-theme/compare/v0.3.2...v0.3.3) (2025-10-30)
 
 

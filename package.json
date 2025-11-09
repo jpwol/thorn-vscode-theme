@@ -2,7 +2,7 @@
   "name": "thorn",
   "displayName": "Thorn",
   "description": "Port of thorn.nvim, a dark and light green theme",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "publisher": "jpwol",
   "license": "MIT",
   "keywords": [
