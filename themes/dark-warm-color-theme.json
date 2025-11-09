@@ -145,6 +145,8 @@
     "statusBar.foreground": "#91A4AD",
     "statusBar.debuggingBackground": "#D2696C",
     "statusBar.debuggingForeground": "#111F22",
+    "statusBar.noFolderBackground": "#111F22",
+    "statusBar.noFolderForeground": "#91A4AD",
 
     "activityBarBadge.background": "#87CBB1",
     "activityBarBadge.foreground": "#152326",
