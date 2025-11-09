@@ -2,7 +2,7 @@
   "name": "thorn-variant",
   "displayName": "Thorn-variant",
   "description": "Port of thorn.nvim, a dark and light green theme, with slight deviations from the original theme.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "synapse42",
   "license": "MIT",
   "keywords": [
