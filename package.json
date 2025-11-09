@@ -29,9 +29,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Thorn",
+        "label": "Thorn (dark warm)",
         "uiTheme": "vs-dark",
-        "path": "./themes/Thorn-color-theme.json"
+        "path": "./themes/dark-warm.json"
       }
     ]
   },
