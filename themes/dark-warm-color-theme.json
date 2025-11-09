@@ -54,20 +54,21 @@
     "titleBar.inactiveBackground": "#0F1A1C",
     "titleBar.inactiveForeground": "#568270",
 
-    "tab.activeBackground": "#111F22",
-    "tab.inactiveBackground": "#0F1A1C",
+    "tab.activeBackground": "#152326",
+    "tab.inactiveBackground": "#111F22",
     "tab.activeForeground": "#6FA791",
     "tab.unfocusedActiveForeground": "#DBD0C6",
     "tab.inactiveForeground": "#37615b",
     "tab.unfocusedInactiveForeground": "#37615b",
     "tab.border": "#111F22",
     "tab.activeBorderTop": "#96C2A1",
+    "tab.activeBorder": "#152326",
     "tab.hoverBackground": "#1D3034",
     "tab.unfocusedHoverBackground": "#1D3034",
     "tab.unfocusedHoverBorder": "#1D3034",
 
     "editorGroup.dropBackground": "#6FA79152",
-    "editorGroupHeader.tabsBackground": "#0F1A1C",
+    "editorGroupHeader.tabsBackground": "#111F22",
     "editorGroupHeader.noTabsBackground": "#111F22",
 
     "sideBar.background": "#0F1A1C",
@@ -179,8 +180,8 @@
 
     "selection.background": "#38524F",
     "editorMarkerNavigation.background": "#0F1A1C",
-    "editorHoverWidget.background": "#0F1A1C",
-    "editorHoverWidget.border": "#101014",
+    "editorHoverWidget.background": "#111D1F",
+    "editorHoverWidget.border": "#0C1214",
 
     "terminal.background": "#0F1A1C",
     "terminal.foreground": "#DBD0C6",
@@ -214,11 +215,6 @@
         "foreground": "#568270",
         "fontStyle": "italic"
       }
-    },
-    {
-      "name": "Bold comment",
-      "scope": ["comment.line.double-percentage.matlab", "entity.name.section.matlab"],
-      "settings": { "foreground": "#659983", "fontStyle": "bold" }
     },
     {
       "name": "Variable Member",
@@ -855,6 +851,16 @@
       ],
       "settings": {
         "foreground": "#D2696C"
+      }
+    },
+    {
+      "name": "MATLAB- Bold comment",
+      "scope": [
+        "comment.line.double-percentage.matlab", 
+        "entity.name.section.matlab"
+      ],
+      "settings": { 
+        "foreground": "#659983", "fontStyle": "bold" 
       }
     }
   ]
