@@ -1,9 +1,9 @@
 {
-  "name": "thorn-variant",
-  "displayName": "Thorn-variant",
-  "description": "Port of thorn.nvim, a dark and light green theme, with slight deviations from the original theme.",
-  "version": "0.1.1",
-  "publisher": "synapse42",
+  "name": "thorn",
+  "displayName": "Thorn",
+  "description": "Port of thorn.nvim, a dark and light green theme",
+  "version": "0.3.5",
+  "publisher": "jpwol",
   "license": "MIT",
   "keywords": [
     "theme",
@@ -17,7 +17,7 @@
     "Themes",
     "Other"
   ],
-  "icon": "",
+  "icon": "thorn_logo.png",
   "homepage": "https://github.com/jpwol/thorn-vscode-theme",
   "repository": {
     "url": "https://github.com/jpwol/thorn-vscode-theme",
@@ -31,12 +31,7 @@
       {
         "label": "Thorn (dark warm)",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark-warm.json"
-      },
-      {
-        "label": "Thorn (dark cool)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark-cool.json"
+        "path": "./themes/dark-warm-color-theme.json"
       }
     ]
   },
