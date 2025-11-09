@@ -20,11 +20,12 @@ These are the items which need to be/have been completed. For working on any of 
 For contributing to the themes, follow these steps:
 
 1. Copy the main theme (Thorn-color-theme.json) to the variant you're working on.
-   - The variant should be titled `dark/light`-`warm/cold`.json.
+   - The variant should be titled `dark/light`-`warm/cold`-color-theme.json.
+   - The file name must end with `-color-theme.json` to utilize VSCode's built-in auto-completion and color previewer.
 2. Referring to **thorn.nvim's** [colors](https://github.com/jpwol/thorn.nvim/tree/main/lua/thorn/colors.lua), do a mass **find and replace** on the hex values.
 3. For any other values in the vscode theme that may not match, do your best to pick values that match the feel of the main theme.
    - These will be kept or changed at my discretion.
-4. Add your variant to the `contributes` section of the `package.json` file, with the label "Thorn Dark/Light Warm/Cold", and the correct path.
+4. Add your variant to the `contributes` section of the `package.json` file, with the label "Thorn (dark/light warm/cold)", and the correct path.
 
 #### Example of `package.json`
 
@@ -34,12 +35,12 @@ For contributing to the themes, follow these steps:
         {
             "label": "Thorn (dark warm)",
             "uiTheme": "vs-dark",
-            "path": "./themes/dark-warm.json"
+            "path": "./themes/dark-warm-color-theme.json"
         },
         {
             "label": "Thorn (light cold)",
             "uiTheme": "vs",
-            "path": "./themes/light-cold.json"
+            "path": "./themes/light-cold-color-theme.json"
         }
     ]
 },
