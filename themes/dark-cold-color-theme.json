@@ -54,20 +54,21 @@
     "titleBar.inactiveBackground": "#1A2328",
     "titleBar.inactiveForeground": "#568270",
 
-    "tab.activeBackground": "#152128",
-    "tab.inactiveBackground": "#0F1A1C",
+    "tab.activeBackground": "#1D282F",
+    "tab.inactiveBackground": "#152128",
     "tab.activeForeground": "#6FA791",
     "tab.unfocusedActiveForeground": "#DBD0C6",
     "tab.inactiveForeground": "#37615b",
     "tab.unfocusedInactiveForeground": "#37615b",
     "tab.border": "#152128",
     "tab.activeBorderTop": "#96C2A1",
+    "tab.activeBorder": "#1D282F",
     "tab.hoverBackground": "#21313B",
     "tab.unfocusedHoverBackground": "#21313B",
     "tab.unfocusedHoverBorder": "#21313B",
 
     "editorGroup.dropBackground": "#6FA79152",
-    "editorGroupHeader.tabsBackground": "#0F1A1C",
+    "editorGroupHeader.tabsBackground": "#152128",
     "editorGroupHeader.noTabsBackground": "#152128",
 
     "sideBar.background": "#1A2328",
@@ -212,11 +213,6 @@
         "foreground": "#568270",
         "fontStyle": "italic"
       }
-    },
-    {
-      "name": "Bold comment",
-      "scope": ["comment.line.double-percentage.matlab", "entity.name.section.matlab"],
-      "settings": { "foreground": "#659983", "fontStyle": "bold" }
     },
     {
       "name": "Variable Member",
@@ -853,6 +849,16 @@
       ],
       "settings": {
         "foreground": "#D2696C"
+      }
+    },
+    {
+      "name": "MATLAB- Bold comment",
+      "scope": [
+        "comment.line.double-percentage.matlab", 
+        "entity.name.section.matlab"
+      ],
+      "settings": { 
+        "foreground": "#659983", "fontStyle": "bold" 
       }
     }
   ]
