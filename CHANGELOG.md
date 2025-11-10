@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.1](https://github.com/jpwol/thorn-vscode-theme/compare/v0.4.0...v0.4.1) (2025-11-10)
+
+
+### Bug Fixes
+
+* **theme:** incorrect background color of floating widget ([03f2de5](https://github.com/jpwol/thorn-vscode-theme/commit/03f2de57e2d1b1835269c662eea78899ae7ab871))
+
 ## [0.4.0](https://github.com/jpwol/thorn-vscode-theme/compare/v0.3.5...v0.4.0) (2025-11-10)
 
 
