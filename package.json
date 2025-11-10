@@ -32,6 +32,11 @@
         "label": "Thorn (dark warm)",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-warm-color-theme.json"
+      },
+      {
+        "label": "Thorn (dark cold)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-cold-color-theme.json"
       }
     ]
   },
