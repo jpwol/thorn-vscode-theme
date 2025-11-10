@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/jpwol/thorn-vscode-theme/compare/v0.3.5...v0.4.0) (2025-11-10)
+
+
+### Features
+
+* **theme:** added dark cold variant ([#38](https://github.com/jpwol/thorn-vscode-theme/issues/38)) ([77074e3](https://github.com/jpwol/thorn-vscode-theme/commit/77074e3049dc22771819012cde9d3127f9a837d5))
+
 ## [0.3.5](https://github.com/jpwol/thorn-vscode-theme/compare/v0.3.4...v0.3.5) (2025-11-09)
 
 
