@@ -125,7 +125,7 @@
     "window.activeBorder": "#96C2A1",
     "window.inactiveBorder": "#568270",
 
-    "editorWidget.background": "#1A2328",
+    "editorWidget.background": "#0F1a1C",
     "editorWidget.foreground": "#568270",
     "editorWidget.border": "#223a37",
     "toolbar.hoverBackground": "#223a37",
