@@ -4,22 +4,22 @@ Thank you for your interest in contributing to Thorn!
 
 There isn't a lot to be worked on here, but any input is welcome!
 
-Namely, the extra variants are yet to be added, so contributions there are welcome. Additionally, if there are any bugs/issues with highlighting in certain programming languages, issues or pull-requests pertaining to that are also welcome!
+All variants are added, but if any tweaks are desirable, feel free to add your input. Additionally, if there are any bugs/issues with highlighting in certain programming languages, issues or pull-requests pertaining to that are also welcome!
 
 ## Todo
 
 These are the items which need to be/have been completed. For working on any of these, please refer to [thorn.nvim](https://github.com/jpwol/thorn.nvim) for styling/highlights.
 
 - [x] Thorn Dark Warm (base theme)
-- [ ] Thorn Dark Cold
-- [ ] Thorn Light Warm
-- [ ] Thorn Light Cold
+- [x] Thorn Dark Cold
+- [x] Thorn Light Warm
+- [x] Thorn Light Cold
 
 ### How to start
 
 For contributing to the themes, follow these steps:
 
-1. Copy the main theme (Thorn-color-theme.json) to the variant you're working on.
+1. Copy the main theme (dark-warm-color-theme.json) to the variant you're working on.
    - The variant should be titled `dark/light`-`warm/cold`-color-theme.json.
    - The file name must end with `-color-theme.json` to utilize VSCode's built-in auto-completion and color previewer.
 2. Referring to **thorn.nvim's** [colors](https://github.com/jpwol/thorn.nvim/tree/main/lua/thorn/colors.lua), do a mass **find and replace** on the hex values.
@@ -63,3 +63,5 @@ Where a commit would look like
 ```
 feat(theme): added light warm variant
 ```
+
+Make sure your commit has the correct type, a colon, and a message after! This is required for our `github-actions` to function properly!
