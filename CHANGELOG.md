@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.0](https://github.com/jpwol/thorn-vscode-theme/compare/v0.4.1...v1.0.0) (2025-11-14)
+
+
+### Features
+
+* project scope completed, 1.0 release! ([b2649ca](https://github.com/jpwol/thorn-vscode-theme/commit/b2649caed6fd65297212e4c45ecb6ecc2212dbd5))
+* **themes:** added light cold variant! ([2221750](https://github.com/jpwol/thorn-vscode-theme/commit/222175020337dd114938e3fe6937344c5118949a))
+* **themes:** added light warm variant! ([1d1e043](https://github.com/jpwol/thorn-vscode-theme/commit/1d1e043e82479498f4911b71f57c7d1105d9cbb2))
+
 ## [0.4.1](https://github.com/jpwol/thorn-vscode-theme/compare/v0.4.0...v0.4.1) (2025-11-10)
 
 
