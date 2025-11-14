@@ -8,6 +8,7 @@
   "keywords": [
     "theme",
     "dark",
+    "light",
     "clean"
   ],
   "engines": {
@@ -37,6 +38,16 @@
         "label": "Thorn (dark cold)",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-cold-color-theme.json"
+      },
+      {
+        "label": "Thorn (light warm)",
+        "uiTheme": "vs",
+        "path": "./themes/light-warm-color-theme.json"
+      },
+      {
+        "label": "Thorn (light cold)",
+        "uiTheme": "vs",
+        "path": "./themes/light-cold-color-theme.json"
       }
     ]
   },
