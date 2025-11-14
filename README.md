@@ -5,13 +5,37 @@
 
 A port of the Neovim colorscheme, [thorn.nvim](https://github.com/jpwol/thorn.nvim), made by me.
 
-Features dark, rich greens and low contrast UI to provide a pleasant working experience.
+Features dark and light rich greens and low contrast UI to provide a pleasant working experience.
 
 ### Screenshots
 
+Thorn Dark Warm
+
 <div align="center">
-<img src="static/thorn_vscode.png"/>
+<img src="static/dark_warm.png"/>
 </div>
+<br />
+
+Thorn Dark Cold
+
+<div align="center">
+<img src="static/dark_cold.png"/>
+</div>
+<br />
+
+Thorn Light Warm
+
+<div align="center">
+<img src="static/light_warm.png"/>
+</div>
+<br />
+
+Thorn Light Cold
+
+<div align="center">
+<img src="static/light_cold.png"/>
+</div>
+<br />
 
 ---
 
@@ -27,3 +51,7 @@ Additional goodies can be found [here](https://github.com/jpwol/thorn.nvim/tree/
 ### Issues/Bugs
 
 Any issues that might be encountered, please report them [here](https://github.com/jpwol/thorn-vscode-theme/issues) and I will take care of them as fast as possible.
+
+#### Contributions
+
+Special thanks to [ljennings98](https://github.com/ljennings98) for contributing to the project!
